@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+
+</head>
+<body> 
+ 
+<!--Formulario-->
+<section class="Formulario">
+  <div class="container mt-5">
+<!--Titulo-->
+  <h1 id="titulo"></h1> 
+  <div class="p-1 mb-2 bg-primary text-white">Formulario</div>
+<!--fin Titulo-->
+<form  class="form-control" action="">
+
+          <legend>Datos Personales</legend>
+          
+          <div class="col-md-8">
+             <label for="exampleInputEmail1" class="form-label" >Nombre Completo:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su nombre">
+            </div>
+
+            
+            <div class="col-md-3">
+              <label for="exampleInputEmail1" class="form-label">Sexo:</label>
+              <div class="form-check" >
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Masculino
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Femanino
+                  </label>
+                </div>
+              </div>
+              
+  <div class="col-md-3">       
+  <h5>Tiempo de Entrada</h5>
+  </div>
+
+  <div class="col-md-3">
+  <input type="time">
+
+  <h5>Carreras</h5>
+<div class="col-auto">
+  <label class="visually-hidden" for="autoSizingSelect">Carreras</label>
+  <select class="form-select" id="autoSizingSelect">
+    <option selected> </option>
+    <option value="1">Ingenieria en Sistema</option>
+    <option value="2">Ingenieria en Computacion</option>
+    <option value="3">Ingenieria Industrial</option>
+  </select>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+  <label class="form-check-label" for="autoSizingCheck">
+    Recordar Datos
+  </label>
+</div>
+     
+  </div>
+
+<div class="col-md-4">
+  <button type="submit" class="btn btn-primary">Ingresar</button>
+</div>
+
+
+
+
+</form>
+  </div>
+</section>
+
+
+<script> src=scss/_variables.scss</script>
+    <script src="bootstrap/js/bootstrap.min.js" ></script>
+    <script src="/script.js "></script>
+</body>
+</html>
